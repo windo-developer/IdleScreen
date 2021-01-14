@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title Line</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <section class="center">
+        <div class="js-clock today">
+            <h3 class="date__text">0000-00-00</h3>
+        </div>
+        <div class="js-clock clock">
+            <h4 class="clock__text">00:00:00</h4>
+        </div>
+        <div class="js-username name"></div>
+        <div>
+        <form class="js-todo todo">
+            <input class="js-addTodo" type="text" placeholder="오늘 할 일을 작성하세요..." />
+        </form>
+        <ul class="js-todoList list">
+        </ul>
+        </div>
+    </section>
+
+    <div class="js-weather weather">
+        <span class="js-weather"></span>
+    </div>
+
+    <script src="src/clock.js"></script>
+    <script src="src/username.js"></script>
+    <script src="src/todo.js"></script>
+    <script src="src/background.js"></script>
+    <script src="src/weather.js"></script>
+</body>
+
+</html>
